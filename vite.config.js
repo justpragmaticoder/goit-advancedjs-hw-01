@@ -2,7 +2,7 @@ import { defineConfig } from 'vite'
 import { resolve } from 'path'
 
 export default defineConfig({
-  // base: '/dist/',
+  base: '/goit-advancedjs-hw-01/',
   build: {
     rollupOptions: {
       input: {
